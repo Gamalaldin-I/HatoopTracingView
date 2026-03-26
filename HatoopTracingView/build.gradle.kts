@@ -47,15 +47,17 @@ dependencies {
 }
 
 // ------------------ PUBLISHING ------------------
+// ------------------ PUBLISHING ------------------
 afterEvaluate {
-publishing {
-    publications {
-        create<MavenPublication>("release") {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
             groupId = "com.github.Gamalaldin-I"
             artifactId = "hatooptracingview"
             version = "1.0.0"
 
+            from(components["release"])
+        }
         }
     }
-}
 }
