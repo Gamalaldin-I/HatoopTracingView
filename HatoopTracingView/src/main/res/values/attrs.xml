@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TracingView">
+        <attr name="tracingLetter" format="string"/>
+        <attr name="activePathColor" format="color"/>
+        <attr name="completedPathColor" format="color"/>
+        <attr name="dottedPathColor" format="color"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="thumbColor" format="color"/>
+        <attr name="glowColor" format="color"/>
+        <attr name="inCompetedPathsColor" format="color"/>
+    </declare-styleable>
+</resources>
