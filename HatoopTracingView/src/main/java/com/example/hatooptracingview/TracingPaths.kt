@@ -60,7 +60,6 @@ object TracingPaths {
         return paths
     }
 
-
     // Helper functions to convert ratios to actual coordinates
     private fun w(ratio: Float): Float {
         val offsetX = (width * 0.2f) / 2 // Center horizontally

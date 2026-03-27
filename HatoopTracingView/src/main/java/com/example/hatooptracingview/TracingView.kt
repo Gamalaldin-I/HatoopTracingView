@@ -186,7 +186,7 @@ class TracingView @JvmOverloads constructor(
 
     fun setTracingListener(listener: TracingListener) { this.listener= listener }
 
-    fun setNewPathArray(nameOfLetterOrNumber: String) {
+    fun setChar(nameOfLetterOrNumber: String) {
         pathArray.clear()
         completedPaths = arrayListOf()
         tracingName = nameOfLetterOrNumber
