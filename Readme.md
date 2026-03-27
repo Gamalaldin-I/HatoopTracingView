@@ -37,7 +37,7 @@ Whether you're building a kids' alphabet app, a handwriting practice tool, or a 
 
 | Tracing Letters | Tracing Numbers | Completion |
 |:-:|:-:|:-:|
-| ![Letter Tracing](./letter_k.jpeg) | ![Number Tracing](./letter_j.jpeg) | ![Complete](./letter_n.jpeg) |
+| ![Letter Tracing](./letter_k.jpeg) | ![Number Tracing](./number_9.jpeg) | ![Complete](./letter_n.jpeg) |
 
 > 💡 *Replace placeholder images above with actual screenshots from your app or emulator.*
 
