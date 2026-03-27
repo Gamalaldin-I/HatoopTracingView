@@ -100,7 +100,7 @@ Then **sync your project** with Gradle. ✅
         //recommended setting  letter after tracing view is created
         //use this code to setup the tracing view
         binding.tracingView.post {
-            binding.tracingView.setNewPathArray("A")
+            binding.tracingView.setChar("A")
         }
         //get the number of paths
         vm.setPathsNumber(binding.tracingView.getPathsNumber())
